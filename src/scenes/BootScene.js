@@ -20,10 +20,10 @@ export default class BootScene extends Phaser.Scene{
             'background', 'assets/Backgrounds/darkPurple.png'
         );
         this.load.audio(
-            'explosionSound', 'assets/audio/explosionCrunch_002.ogg'
+            'explosionSound', 'assets/Audio/explosionCrunch_002.ogg'
         )
         this.load.audio(
-            'laserSound', 'assets/audio/laserLarge_003.ogg'
+            'laserSound', 'assets/Audio/laserLarge_003.ogg'
         )
         //Numbers for lives
         this.load.image(
